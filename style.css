@@ -1,0 +1,13 @@
+#searchBar {
+  margin: 15px 10px;
+}
+
+.tableWrapper {
+  max-height: 400px;
+  overflow: auto;
+}
+
+#newForm {
+  display: inline-block;
+  margin-left: 60px;
+}
