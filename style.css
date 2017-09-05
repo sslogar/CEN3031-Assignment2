@@ -11,3 +11,7 @@
   display: inline-block;
   margin-left: 60px;
 }
+
+#submitBtn {
+  border-radius: 10px;
+}

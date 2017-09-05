@@ -36,7 +36,7 @@
                       * include a way to remove individual listings
 
                 -->
-                <tr ng-repeat="ent in listings | filter : srch">
+                <tr ng-repeat="ent in listings | filter : srch" ng-click="showDetails(ent)">
                   <td> {{ent.code}} </td>
                   <td> {{ent.name}} </td>
                   <td>
@@ -61,7 +61,7 @@
                    * consider how to use ng-click within the the table to implement this feature
 
              -->
-             <p>{{}}</p>
+             <p>{{detailedInfo}}</p>
           </div>
         </div>
         <div align="left" id="newForm">
@@ -72,7 +72,7 @@
             <input type="text" ng-model="flat" placeholder="Latitude"></input><br><br>
             <input type="text" ng-model="flong" placeholder="Longitude"></input><br><br>
             <input type="text" ng-model="faddr" placeholder="Address"></input><br><br>
-            <button type="button" name="submitButton" ng-click="addListing()">Submit</button>
+            <button type="button" id="submitBtn" name="submitButton" ng-click="addListing()">Submit</button>
 
           </form>
         </div>
