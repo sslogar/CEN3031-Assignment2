@@ -10,8 +10,31 @@
 #newForm {
   display: inline-block;
   margin-left: 60px;
+  border-style: solid;
+  border-color: grey;
+  padding: 25px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #submitBtn {
   border-radius: 10px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  background-color: #add8e6;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+#formcontainer {
+  border: 5px;
+  border-color: grey;
+}
+
+.txtBox {
+  padding-right: 50px;
 }
